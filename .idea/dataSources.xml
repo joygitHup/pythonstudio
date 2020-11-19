@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="mysqlpool" uuid="c13d95c4-09c2-4643-9524-1d8a61037c4b">
+      <driver-ref>mysql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://192.168.1.123:3306/spiderData</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="mongoDbpool" uuid="2005177a-5208-4528-9d00-de429030ab5c">
+      <driver-ref>mongo</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.dbschema.MongoJdbcDriver</jdbc-driver>
+      <jdbc-url>mongodb://127.0.0.1:27017</jdbc-url>
+    </data-source>
+  </component>
+</project>

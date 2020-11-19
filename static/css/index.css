@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.functionpart{
+    border:red solid 1px;
+    width: 100%;
+    height: 600px;
+}
+.functionResult{
+     border:red solid 1px;
+    width: 100%;
+    height: 400px;
+}

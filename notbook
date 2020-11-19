@@ -1,0 +1,28 @@
+1.爬虫
+2.人工智能 (词云 数据分析 ..)
+3.web程序
+4.测试--自动化
+
+爬虫相关:
+scrapy runspider <spider_file.py>
+scrapy crawl <spider>
+
+错误集锦:
+1.Scrapy的shell命令执行后提示ValueError: invalid hostname: 'https
+答:在windows系统上，scrapy shell 后的url需要用双引号。
+redis:
+命令教程:https://www.cnblogs.com/blogofwyl/p/4613104.html
+
+
+
+延展:1.spider 同时启动多个spider
+{
+1.在spider统计目录简历commands python包(可以不用自己创建__init__文件)
+2.将spider中开源crawlall文件源码进行复制 修改run方法
+3.在settings中间中配置COMMANDS_MODULE="spiders.commands"
+其他:可以在初始目录中新建 批量执行spider脚本  也可以选择用scrapy crawl spidername
+}
+
+spider将数据保存在mysql mogodb  redis 上
+
+
