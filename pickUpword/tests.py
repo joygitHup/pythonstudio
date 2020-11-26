@@ -54,7 +54,7 @@ import os
 import time
 import  jieba
 from   matplotlib import pyplot as plt
-from  wordcloud import wordcloud
+from  wordcloud import WordCloud
 from  PIL import Image
 import  numpy as np
 
@@ -111,29 +111,7 @@ print(s)
     # print(t1.getName())
     # print(t2.getName())
 
-# import cv2
-# cap=cv2.VideoCapture(0)
-# while True:
-#     ret,frame=cap.read()
-#     cv2.imshow('fram',frame)
-#     c=cv2.waitKeyEx(1)
-#     if c==ord('q'):
-#         break
-# cap.release()
-# cv2.DestroyAllWindows()
 
-# img=cv2.imread('../static/img/1.jpg',0)
-# plt.imshow(img,cmap='gray',interpolation='bicubic')
-# plt.xticks([]),plt.yticks([])
-# plt.show()
-
-from  selenium import webdriver
-# Python自动化发送微信消息
-# 自动化办公体系 搭建
-# import  itchat
-# itchat.auto_login(enableCmdQR=True,hotReload=True)
-# to_name=itchat.search_friends(name='@----刈-carzy')
-# itchat.send_msg('ceshi',toUserName=to_name[0]['UserName'])
 #装饰器
 # def decration(func):
 #     a=100
@@ -145,7 +123,6 @@ from  selenium import webdriver
 # @decration
 # def f1(name='张三'):
 #     print('开始执行被装饰的函数'+name)
-
 
 
 

@@ -49,3 +49,7 @@ class SpiderdemoPipeline_Redis:
         return item  # 会在控制台输出原item数据，可以选择不写
     def close_con_redis(self):
         self.con_redis.connection_pool.disconnect()
+
+
+class csdnSpiderpipne:
+    pass

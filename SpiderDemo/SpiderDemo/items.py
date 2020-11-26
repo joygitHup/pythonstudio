@@ -11,3 +11,14 @@ class SpiderdemoItem(scrapy.Item):
     # name = scrapy.Field()
     goodimg=scrapy.Field()
     goodName=scrapy.Field()
+
+class scdnspiderItem(scrapy.Item):
+     title=scrapy.Field()
+     content=scrapy.Field()
+
+class scdnlogiItem(scrapy.Item):
+     title=scrapy.Field()
+     title_href=scrapy.Field()
+     content=scrapy.Field()
+     make_time=scrapy.Field()
+     Art_reder=scrapy.Field()

@@ -5,7 +5,7 @@ from django.shortcuts import render
 import requests
 import base64
 
-from pythonstudio.settings import STATICFILES_DIRS
+from pythonstudio import STATICFILES_DIRS
 
 '''通用文字识别（高精度版）'''
 def  ataintocke():
